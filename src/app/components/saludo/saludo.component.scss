@@ -1,0 +1,22 @@
+.cont-card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    background: color-mix(in srgb, var(--pill-accent) 5%, transparent);
+}
+img {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+b{
+    background: burlywood;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
